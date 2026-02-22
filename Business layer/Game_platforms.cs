@@ -8,5 +8,8 @@ namespace Business_layer
 {
 	public class Game_platforms
 	{
+		public List<Games> games{get; priavte set;}
+		public List<Platforms> platfrom{get; priavte set;}
 	}
 }
+

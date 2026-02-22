@@ -31,7 +31,7 @@ namespace Business_layer
 		
 		
 		
-		public List<VideoGame> VideoGames { get; private set; }
+		public List<Games> Games { get; private set; }
 		
 		private Platform()
 		{
@@ -47,4 +47,5 @@ namespace Business_layer
 		}
 	}
 }
+
 

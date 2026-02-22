@@ -32,11 +32,11 @@ namespace Business_layer
 
 
 
-		public ICollection<VideoGame> VideoGames { get; set; }
+		public List<VideoGame> VideoGames { get; private set; }
 
 		private Studio()
 		{
-			this.VideoGames = new HashSet<VideoGame>();
+
 		}
 
 		public Studio(string name, string country, string founded_date, string website) : this()
@@ -49,3 +49,4 @@ namespace Business_layer
 
 	}
 }
+
